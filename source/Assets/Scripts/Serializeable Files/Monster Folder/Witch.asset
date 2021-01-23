@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca41592d83586134fab9c1ec2e277c61, type: 3}
+  m_Name: Witch
+  m_EditorClassIdentifier: 
+  bodyParts:
+  - name: Head
+    toughness: 1
+    hp: 1
+  - name: Torso
+    toughness: 1
+    hp: 1
+  - name: Right Arm
+    toughness: 1
+    hp: 1
+  - name: Left Arm
+    toughness: 1
+    hp: 1
+  - name: Legs
+    toughness: 1
+    hp: 1
+  perkList: []
+  monsterName: Witch
+  monsterDesc: The Witch
+  meleeAttackCount: 1
+  strength: 1
+  movement: 1
